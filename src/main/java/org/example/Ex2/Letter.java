@@ -1,0 +1,1 @@
+package org.example.Ex2;public class Letter extends Mailing{    public Letter(String name, String sendersAddress, String addressRecipient) {        super(name, sendersAddress, addressRecipient);    }    @Override    public void deliver() {    }    @Override    public void send() {    }}

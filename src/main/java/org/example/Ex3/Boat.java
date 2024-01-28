@@ -1,0 +1,1 @@
+package org.example.Ex3;public class Boat implements Swim{    private int speed;    public Boat(int speed) {        this.speed = speed;    }    public int getSpeed() {        return speed;    }    public void setSpeed(int speed) {        this.speed = speed;    }    @Override    public void swim() {    }}
